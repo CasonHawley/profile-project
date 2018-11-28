@@ -12,6 +12,7 @@ html {
 }
 
 body {
+    margin: 0%;
     overflow-x: hidden;
     font-weight: normal;
 
@@ -23,12 +24,15 @@ body {
 
 .app {
     margin-top: 2rem;
-    display: grid;
+    // display: grid;
     justify-items: center;
 }
 
 .navigation {
     display: flex;
+    background-color: aqua;
+    justify-content: center;
+
 }
 
 .footer {

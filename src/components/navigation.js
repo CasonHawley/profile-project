@@ -3,7 +3,7 @@ import React from 'react';
 const Navigation = () => {
     return (
       <div className='navigation'>
-        <div>Logo</div>
+        {/* <img src={"/logo.png"} /> */}
         <a href="index.html">Home</a>
         <a href="https://www.linkedin.com/in/cason-hawley-5ab480175/">LinkedIn</a>
         <a href="https://github.com/CasonHawley?tab=overview&from=2018-10-01&to=2018-10-31">GitHub</a>
