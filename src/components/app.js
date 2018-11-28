@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Welcome from './welcome';
 import Navigation from './navigation';
 import About from './about';
+import Footer from './footer';
 
 class App extends Component {
   render() {
@@ -10,7 +11,8 @@ class App extends Component {
       <div className='app'>
         <Navigation />
         <Welcome />
-        <About />
+        { About() }
+        <Footer />
       </div>
     );
   }
