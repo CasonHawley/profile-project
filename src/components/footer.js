@@ -3,14 +3,14 @@ import React from 'react';
 const Footer = () => {
     return (
       <div className='footer'>
-        <div>Link1</div>
-        <div>Link2</div>
-        <div>Link3</div>
-        <div>Link4</div>
-        <div>Link5</div>
-        <div>Link6</div>
-        <div>Link7</div>
-        <div>Link8</div>
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.twitter.com">Twitter</a>
+        <a href="https://www.youtube.com">YouTube</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.github.com">GitHub</a>
+        <a href="https://www.bottega.tech">Bottega</a>
+        <a href="https://www.linkedin.com">LinkedIn</a>
       </div>
     );
   }
