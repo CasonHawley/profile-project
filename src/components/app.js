@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-
-import Welcome from './welcome';
+import Users from './users';
 import Navigation from './navigation';
-import About from './about';
 import Footer from './footer';
 
 class App extends Component {
@@ -10,8 +8,9 @@ class App extends Component {
     return (
       <div className='app'>
         <Navigation />
-        <Welcome />
-        { About() }
+        <Users />
+        <Users />
+        <Users />
         <Footer />
       </div>
     );

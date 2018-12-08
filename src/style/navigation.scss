@@ -1,0 +1,15 @@
+.navigation {
+    height: 300px;
+    display: grid;
+    background-color:#aee7f1;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 3fr 2fr 2fr 2fr 2fr 2fr;
+    font-size: 0.75rem;
+
+
+    img {
+        height: 250px;
+    }
+}
+

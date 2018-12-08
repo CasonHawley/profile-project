@@ -1,0 +1,26 @@
+.users {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(209, 209, 209);
+    grid-gap: 20px;
+    justify-self: center;
+}
+
+.user {
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+
+}
+
+.button {
+    background-color:#aee7f1;
+    width: 90px;
+    height: 40px;
+    color: rgb(8, 2, 2);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.5rem;
+  }
